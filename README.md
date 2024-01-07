@@ -78,7 +78,7 @@ sudo systemctl enable fbcp.service
 ```
 sudo nano /boot/config.txt
 ```
-* Change `dtoverlay=vc4-kms-v3d` to `dtoverlay=vc4-fkms-v3d` (around line 62).
+* Change `dtoverlay=vc4-kms-v3d` to `dtoverlay=vc4-fkms-v3d` (around line 62).  // #Disable and sudo apt-get update && sudo apt-get install xserver-xorg-video-fbturbo
 
 * Add these lines in the bottom of the file:
 ```
